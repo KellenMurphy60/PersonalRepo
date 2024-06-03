@@ -48,5 +48,5 @@ Finally, by applying more advanced filters and organizing a table we can create 
 
 ![S5](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/6b3ee2e0-c266-4419-b3a6-adddef15622a)
 
-
+**That is the totality of the demo!** The scope is fairly limited but seeing as this is my first personal endeavor into cyber, I believe it has been a fine introduction into basic tools and procedures used by both attackers and defenders. 
 
