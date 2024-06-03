@@ -1,5 +1,5 @@
 # PersonalRepo
-My "portfolio" not too much to look at right now. 
+My personal portfolio/ resume attatchment. 
 This Repository contains school projects and any personal projects I may endeavor in.
-Updated February 2024
+Updated June 2024
 
