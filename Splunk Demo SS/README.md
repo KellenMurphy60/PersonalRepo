@@ -27,3 +27,26 @@ Meterpreter shell being opened:
 
 **(Not pictured: console access gained usinga simple command and multiple harmless commands being run for the purpose of being viewed by detection software)**
 ![meterpreter shell](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/c0254e72-6639-40f1-acc3-6116e2d18157)
+
+After configuring a new index named endpoint, the commands can be viewed albeit in a unparsable form, at this stage the data has been obtained but it needs to be re-organized to be usable. 
+Basic filters can be employed to verify that the commands came from 192.168.28.11 (The Attacking Kali Linux Machine) but we can do better than this!
+
+![Splunk1](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/492bf0e8-ed51-4c7e-b9e9-81f4def9c430)
+
+Filtered by IP: 
+![Splunk2](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/bfbf866d-6795-4b8f-bf14-356332aed7db)
+
+Here we can see the destination port, 3389 (Windows remote desktop) 
+
+![Spunk3](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/28818444-daae-4d61-93c4-52a9f7eb483f)
+
+By viewing the ParentImage index, we can see the malware originated from Resume.pdf.exe
+
+![S4](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/7cc02b07-08cf-45f6-8b6c-bcd9c3fe229a)
+
+Finally, by applying more advanced filters and organizing a table we can create usable data that can provide information to a security team and potentially non-technical positions:
+
+![S5](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/6b3ee2e0-c266-4419-b3a6-adddef15622a)
+
+
+
