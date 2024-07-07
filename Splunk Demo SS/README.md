@@ -20,7 +20,7 @@ Splunk is a Security Information and Event Management (SIEM) tool developed by S
 **Attacker:** Kali Linux Machine
 **Defender:** Windows Machine
 
-The first step from the attacking machine is to find a vulnerbility in a system. Using Nmap, a common network mapping tool, I discovered that port 3389 has been left open. This is the remote desktop port used by windows and in actuality could be concievably exploited in the field against a network with naive security protocols.
+The first step from the attacking machine is to find a vulnerbility in a system. Using Nmap, a common network mapping tool, I discovered that port 3389 has been left open. This is the remote desktop port used by windows
 
 ![Nmap](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/65e581e0-a1b6-4fa1-8180-284bede8192e)
 
@@ -29,7 +29,7 @@ After identifying the vulnerability the attacking Kali linux machine configured 
 
 ![msfvenom payload creation](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/b1130f14-628a-4a70-88d1-5d65f878e519)
 
-After downloading an running the malicious program, the meterpreter shell opens and allows remote execution on the Attacking machine (Note: Given the toy nature of this demo, windows defender was disabled as it automatically detects malware of this nature and blocks both the download and the execution of such a program.)
+After downloading and running the malicious program, the meterpreter shell opens and allows remote execution on the Attacking machine (Note: Given the toy nature of this demo, windows defender was disabled as it automatically detects malware of this nature, blocking both the download and the execution of such a program.)
 
 ![malwareRunning](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/71ad51b0-a783-4681-b15b-04459228e4b7)
 
