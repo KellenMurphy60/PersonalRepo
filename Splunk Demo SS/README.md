@@ -35,7 +35,7 @@ After downloading and running the malicious program, the meterpreter shell opens
 
 Meterpreter shell being opened: 
 
-**(Not pictured: console access gained usinga simple command and multiple harmless commands being run for the purpose of being viewed by detection software)**
+**(Not pictured: console access gained using a simple command and multiple harmless commands being run for the purpose of being viewed by event logging software)**
 ![meterpreter shell](https://github.com/KellenMurphy60/PersonalRepo/assets/126136167/c0254e72-6639-40f1-acc3-6116e2d18157)
 
 After configuring a new index named endpoint, the commands can be viewed albeit in a unparsable form, at this stage the data has been obtained but it needs to be re-organized to be usable. 
